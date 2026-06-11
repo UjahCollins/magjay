@@ -60,7 +60,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* RIGHT SIDE */}
+      {/* RIGHT SIDEs */}
       <div className="flex-1 flex justify-center items-center">
         <div className="w-[300px] h-[300px] md:w-[450px] md:h-[450px] rounded-full overflow-hidden shadow-2xl bg-gray-200">
           <img
