@@ -28,7 +28,7 @@ const Vendors = () => {
           {/* Photography */}
           <div className="p-4 border rounded-xl">
             <p className="font-semibold text-[#556B2F]">Photography / Videography</p>
-            <p>Radiant Pixels</p>
+            <p>CP Creatives</p>
           </div>
 
           {/* Live Streaming */}
@@ -65,7 +65,7 @@ const Vendors = () => {
           {/* Event Planner */}
           <div className="p-4 border rounded-xl md:col-span-2">
             <p className="font-semibold text-[#556B2F]">Event Planner</p>
-            <p>Dreams Kreation Events</p>
+            <p> Unusual Dimensions </p>
           </div>
 
         </div>

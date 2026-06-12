@@ -1,13 +1,20 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import logo from '../assets/logo.png'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-[#556B2F] text-white px-6 py-1">
+    <nav className="bg-[#556B2F] text-white px-6 py-3">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
-        <h2 className="italic font-small tracking-widest text-white/80">MagJay'26</h2>
+        <Link to="/">
+  <img
+    src={logo}
+    alt="MagJay Logo"
+    className="h-6 md:h-12 w-auto object-contain"
+  />
+</Link>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex gap-6 text-[14px]">

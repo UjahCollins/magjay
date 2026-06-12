@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useCountdown } from "../hooks/useCountDown";
-import img1 from '../assets/10.jpeg'
+import img1 from '../assets/9.jpeg'
 
 const Home = () => {
   const timeLeft = useCountdown()

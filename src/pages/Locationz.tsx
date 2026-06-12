@@ -64,16 +64,61 @@ const Locationz = () => {
           </p>
 
           {/* MAP IMAGE / PLACEHOLDER */}
-          <div className="w-full h-64 rounded-xl overflow-hidden shadow-md bg-gray-100 flex items-center justify-center">
+          <div className="text-center space-y-6">
 
-            {/* Replace with real map or image */}
-            <img
-              src="/map.jpg"
-              alt="Map Location"
-              className="w-full h-full object-cover"
-            />
+  <p className="text-lg font-semibold text-[#556B2F]">
+    Directions
+  </p>
 
-          </div>
+  <p className="text-gray-600 text-sm">
+    Tap any button below to open the location in Google Maps and get turn-by-turn directions.
+  </p>
+
+  <div className="grid md:grid-cols-2 gap-4">
+
+    {/* Church Directions */}
+    <div className="border rounded-xl p-5 bg-[#556B2F]/5">
+      <p className="font-semibold text-[#556B2F] mb-2">
+        Wedding Mass
+      </p>
+
+      <p className="text-gray-700 text-sm mb-4">
+        St. Vincent Catholic Church
+      </p>
+
+      <a
+        href="https://maps.app.goo.gl/Z1mAAqiJUhqZd3iY7?g_st=ic"
+        target="_blank"
+        rel="noreferrer"
+        className="inline-block bg-[#556B2F] text-white px-5 py-2 rounded-full hover:opacity-90 transition"
+      >
+        Get Directions
+      </a>
+    </div>
+
+    {/* Reception Directions */}
+    <div className="border rounded-xl p-5 bg-[#556B2F]/5">
+      <p className="font-semibold text-[#556B2F] mb-2">
+        Reception Venue
+      </p>
+
+      <p className="text-gray-700 text-sm mb-4">
+        Abayomi Event Centre, Oregie, Ajegunle Apapa, Lagos
+      </p>
+
+      <a
+        href="https://maps.app.goo.gl/3mUxHcEdhdHmNzSy9?g_st=ic"
+        target="_blank"
+        rel="noreferrer"
+        className="inline-block bg-[#556B2F] text-white px-5 py-2 rounded-full hover:opacity-90 transition"
+      >
+        Get Directions
+      </a>
+    </div>
+
+  </div>
+
+</div>
 
         </div>
 
