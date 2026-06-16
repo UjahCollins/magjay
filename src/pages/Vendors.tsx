@@ -33,8 +33,8 @@ const Vendors = () => {
 
           {/* Live Streaming */}
           <div className="p-4 border rounded-xl">
-            <p className="font-semibold text-[#556B2F]">Live Streaming</p>
-            <p>Rtmediang</p>
+            <p className="font-semibold text-[#556B2F]">Event Planner</p>
+            <p>Unusual Dimensions</p>
           </div>
 
           {/* Hair Vendor */}
@@ -59,15 +59,10 @@ const Vendors = () => {
           {/* Cake / Small Chops */}
           <div className="p-4 border rounded-xl">
             <p className="font-semibold text-[#556B2F]">Cake / Small Chops</p>
-            <p>Peachanters</p>
+            <p>iCakesntreats</p>
           </div>
 
-          {/* Event Planner */}
-          <div className="p-4 border rounded-xl md:col-span-2">
-            <p className="font-semibold text-[#556B2F]">Event Planner</p>
-            <p> Unusual Dimensions </p>
-          </div>
-
+         
         </div>
       </div>
     </div>

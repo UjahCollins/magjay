@@ -1,15 +1,15 @@
 import { FaPhone, FaWhatsapp } from "react-icons/fa";
+import invitationImage from "../assets/12.jpeg";
 
 const Invite = () => {
   const openInvitation = () => {
-    const inviteUrl = "/invitation.jpg"; // put in public folder
+    const newWindow = window.open(invitationImage, "_blank");
 
-    const newWindow = window.open(inviteUrl, "_blank");
     if (newWindow) {
       newWindow.focus();
     }
   };
-
+  
   return (
     <div className="min-h-screen flex flex-col items-center justify-center px-6 py-10 gap-8">
 
@@ -57,15 +57,7 @@ const Invite = () => {
             Register
           </a>
 
-          {/* Stream (YouTube) */}
-          <a
-            href="https://youtube.com"
-            target="_blank"
-            rel="noreferrer"
-            className="border border-[#556B2F] text-[#556B2F] px-6 py-2 rounded-full hover:bg-[#556B2F] hover:text-white transition"
-          >
-            Stream
-          </a>
+         
 
           {/* View Invitation */}
           <button
@@ -88,15 +80,14 @@ const Invite = () => {
 
             {/* Jane */}
             <div className="flex items-center justify-center gap-2 w-full md:w-auto">
-              <p className="font-medium">Jane:</p>
-              <span>08132343537</span>
+              <span>08139323945</span>
 
-              <a href="tel:08132343537" className="text-[#556B2F]">
+              <a href="tel:08139323945" className="text-[#556B2F]">
                 <FaPhone />
               </a>
 
               <a
-                href="https://wa.me/2348132343537"
+                href="https://wa.me/08139323945"
                 target="_blank"
                 rel="noreferrer"
                 className="text-green-600"
@@ -107,15 +98,14 @@ const Invite = () => {
 
             {/* Sam */}
             <div className="flex items-center justify-center gap-2 w-full md:w-auto">
-              <p className="font-medium">Sam:</p>
-              <span>09131313131</span>
+              <span>09016015668</span>
 
-              <a href="tel:09131313131" className="text-[#556B2F]">
+              <a href="tel:09016015668" className="text-[#556B2F]">
                 <FaPhone />
               </a>
 
               <a
-                href="https://wa.me/2349131313131"
+                href="https://wa.me/09016015668"
                 target="_blank"
                 rel="noreferrer"
                 className="text-green-600"

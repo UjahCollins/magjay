@@ -1,5 +1,5 @@
 import pot from '../assets/pot.jpg'
-import macbook from '../assets/macbook.avif'
+import washing from '../assets/wash.jpg'
 import blender from '../assets/Blender.jpg'
 import book from '../assets/marriage.png'
 
@@ -106,7 +106,7 @@ const Registry = () => {
     <p className="font-semibold text-[#556B2F]">Blender</p>
 
     <a
-      href="https://buy-link.com"
+      href="https://www.jumia.com.ng/silver-crest-germany-powerful-blender8500-watts-2cups-400401346.html"
       target="_blank"
       rel="noreferrer"
       className="text-sm text-white bg-[#556B2F] px-4 py-2 rounded-full inline-block hover:opacity-90 transition"
@@ -123,18 +123,18 @@ const Registry = () => {
   {/* IMAGE (60% WIDTH CONTROLLED) */}
   <div className="w-[60%] h-36 bg-gray-50 overflow-hidden rounded-lg">
     <img
-      src={macbook}
-      alt="Blender"
+      src={washing}
+      alt="washing maachine"
       className="w-full h-full object-cover hover:scale-105 transition duration-300"
     />
   </div>
 
   {/* TEXT SECTION */}
   <div className="text-center space-y-2">
-    <p className="font-semibold text-[#556B2F]">macBook</p>
+    <p className="font-semibold text-[#556B2F]">Washing Machine</p>
 
     <a
-      href="https://buy-link.com"
+      href="https://www.jumia.com.ng/hisense-front-load-washing-machine-6-kg-smart-control-silver-wm-6010-419671948.html?utm_source=PMAX&utm_medium=Paid&utm_campaign=NG_P-max-RC_Excluding_Brands&gad_source=1&gad_campaignid=22785216148&gbraid=0AAAAACeJlnNrnPQcjfJyOR7FKRQX_GTwS&gclid=CjwKCAjw6MPRBhBTEiwAd-7MrxA5flkhyCDXCf_r0Uea06peMosXupo2NPxr4GdWUNMmiZuNnIz9bRoCRl8QAvD_BwE"
       target="_blank"
       rel="noreferrer"
       className="text-sm text-white bg-[#556B2F] px-4 py-2 rounded-full inline-block hover:opacity-90 transition"
@@ -162,7 +162,7 @@ const Registry = () => {
     <p className="font-semibold text-[#556B2F]">Non sticky Pot</p>
 
     <a
-      href="https://buy-link.com"
+      href="https://www.jumia.com.ng/a-sets-of-4-non-sticky-pots.-generic-mpg6418218.html"
       target="_blank"
       rel="noreferrer"
       className="text-sm text-white bg-[#556B2F] px-4 py-2 rounded-full inline-block hover:opacity-90 transition"
