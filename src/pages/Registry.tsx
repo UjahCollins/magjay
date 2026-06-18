@@ -75,7 +75,7 @@ const Registry = () => {
           </p>
 
           <p className="text-gray-700 mb-4">
-            For those willing to support their honeymoon getaway.
+            For those who would like to contribute to our honeymoon adventure, your support would mean the world to us.
           </p>
 
           <div className="bg-[#556B2F] text-white rounded-lg p-4 inline-block">
