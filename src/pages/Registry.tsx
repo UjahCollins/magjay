@@ -2,6 +2,7 @@ import pot from '../assets/pot.jpg'
 import washing from '../assets/wash.jpg'
 import blender from '../assets/Blender.jpg'
 import book from '../assets/marriage.png'
+import gas from '../assets/gas.jpg'
 
 const Registry = () => {
 
@@ -51,12 +52,12 @@ const Registry = () => {
 
   {/* DESCRIPTION */}
   <p className="text-gray-700 mb-4">
-    A beautiful book that reflects their journey and love story.
+    A powerful book filled with insights on business, leadership, and the mindset required to achieve greatness..
   </p>
 
   {/* BUTTON */}
   <a
-    href="https://www.amazon.com"
+    href="https://www.jumia.com.ng/making-it-big-by-femi-otedola-jumia-books-mpg11971630.html"
     target="_blank"
     rel="noreferrer"
     className="bg-[#556B2F] text-white px-6 py-2 rounded-full hover:opacity-90 inline-block"
@@ -163,6 +164,34 @@ const Registry = () => {
 
     <a
       href="https://www.jumia.com.ng/a-sets-of-4-non-sticky-pots.-generic-mpg6418218.html"
+      target="_blank"
+      rel="noreferrer"
+      className="text-sm text-white bg-[#556B2F] px-4 py-2 rounded-full inline-block hover:opacity-90 transition"
+    >
+      Buy Now
+    </a>
+  </div>
+
+</div>
+
+{/* ================= ITEM 4 ================= */}
+  <div className="border rounded-xl overflow-hidden shadow-md hover:shadow-lg transition flex flex-col items-center py-6 px-4 gap-4">
+
+  {/* IMAGE (60% WIDTH CONTROLLED) */}
+  <div className="w-[60%] h-36 bg-gray-50 overflow-hidden rounded-lg">
+    <img
+      src={gas}
+      alt="gas cooker"
+      className="w-full h-full object-cover hover:scale-105 transition duration-300"
+    />
+  </div>
+
+  {/* TEXT SECTION */}
+  <div className="text-center space-y-2">
+    <p className="font-semibold text-[#556B2F]">Gas Cooker</p>
+
+    <a
+      href="https://www.jumia.com.ng/maxi-automatic-4-burner-50-x-50-gas-cooker-4-0-with-oven-418819576.html"
       target="_blank"
       rel="noreferrer"
       className="text-sm text-white bg-[#556B2F] px-4 py-2 rounded-full inline-block hover:opacity-90 transition"
