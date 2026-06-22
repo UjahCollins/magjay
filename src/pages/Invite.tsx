@@ -87,7 +87,7 @@ const Invite = () => {
               </a>
 
               <a
-                href="https://wa.me/08139323945"
+                href="https://wa.me/+23408139323945"
                 target="_blank"
                 rel="noreferrer"
                 className="text-green-600"
@@ -105,7 +105,7 @@ const Invite = () => {
               </a>
 
               <a
-                href="https://wa.me/09016015668"
+                href="https://wa.me/+2349016015668"
                 target="_blank"
                 rel="noreferrer"
                 className="text-green-600"
