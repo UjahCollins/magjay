@@ -49,7 +49,7 @@ const Invite = () => {
 
           {/* Register (Google Form) */}
           <a
-            href="https://forms.gle/YOUR_GOOGLE_FORM_LINK"
+            href="https://forms.gle/stbKsGjY2dtpTbsz9"
             target="_blank"
             rel="noreferrer"
             className="bg-[#556B2F] text-white px-6 py-2 rounded-full hover:opacity-90 transition"
